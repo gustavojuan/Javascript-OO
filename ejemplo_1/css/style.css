@@ -1,0 +1,10 @@
+body
+{
+    background:lightskyblue;
+    color:#444;
+}
+input[type="button"]
+{
+    border-radius: 1em;
+    font-size: 2em;
+}

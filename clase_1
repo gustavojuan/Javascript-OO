@@ -1,9 +1,42 @@
 JavaScript es el lenguaje de programación frontend de la web.
-
 Es el lenguaje más popular de la web ya que trabaja con todo tipo de navegadores
-
 Se suele usar para agregar funcionalidad  a los sitios web, validar formularios... y algo más...
 
-
 HTML5 apesta a JavaScript
+
+Es un lenguaje interpretado, no se necesita compilar para ejecutarse.
+Se define como orientado a objetos, basado en prototipos, no tipado y dinámico.
+Orientado a objetos -> basado en clases, atributos, métodos, etc...
+prototipos -> Clona la estructura de un objeto que ya existe y lo genera
+no tipado -> de débil tipado,
+dinámico -> basado en eventos
+
+Conceptos básicos de POO
+
+1) Clase: un modelo a seguir
+    Class Perro(){
+    }
+
+2) Objeto: métodos y atributos
+    filo = new Perro();
+
+3) Métodos
+    filo.ladrar();
+    filo.aus('papel_del_suelo');
+
+4) Atributos
+    filo.raza = "rateret valenciá";
+    filo.edad = 3;
+    filo.entrenado = true;
+
+POO en JavaScript
+Los 3 objetos Padres en JavaScript
+
+1) Window -> Padre -> Toda la ventana del navegador// RWD, scrolls,etc.. (ejemplo Window.onload)
+2) Document -> Hijo -> el que sufre. Le damos funcionalidad. Atraves del document, tocamos HTML5 y CSS.
+3) Navigator -> El Espíritu Santo -> Características del cliente, SO, navegador, versión, dispositivo,etc..
+    ->geolocation->objeto del Navigator.
+
+Document Objet Model (DOM)
+Api de JS que permite interaccionar JS con lenguajes tipo HTML/CSS
 
